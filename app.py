@@ -64,7 +64,7 @@ if st.sidebar.button("Create Vector Store", use_container_width=True):
         st.sidebar.error("Please upload PDF files before creating the vector store.")
 
 # Main app content
-st.title("📄 RAG Q&A Conversation With Message History")
+st.title("📄 RAG Document Q&A With Chat History")
 
 # Create a standard PromptTemplate
 prompt_template = PromptTemplate(
